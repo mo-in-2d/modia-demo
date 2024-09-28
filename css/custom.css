@@ -136,8 +136,15 @@ a.highlight {
 .timeline {
   margin: 2em auto;
   position: relative;
-  max-width: 46em;
+  max-width: 90vw;
 }
+
+@media only screen and (min-width: 768px) {
+  .timeline {
+    max-width: 46em;
+  }
+}
+
 .timeline h4 {
     margin-top: 0px;
     font-weight: 500;
