@@ -10,7 +10,7 @@
   }
 
   .header a {
-    color: #000;
+    color: #ef795a;
   }
 
   .header ul {
@@ -18,19 +18,19 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #fff9e5;
   }
   
   .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    border-right: 1px solid #fff9e5;
     text-decoration: none;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: #fff9e5;
   }
   
   .header .logo {
@@ -63,7 +63,7 @@
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    <!-- float: right; -->
     padding: 28px 20px;
     position: relative;
     user-select: none;
