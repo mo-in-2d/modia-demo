@@ -133,24 +133,6 @@ a.highlight {
 }
 
 /* Styling */
-.timeline {
-  margin: 2em auto;
-  position: relative;
-  max-width: 90vw;
-  font-size: 0.6em;
-}
-
-@media only screen and (min-width: 860px) {
-  .timeline {
-    max-width: 46em;
-    font-size: inherit;
-  }
-}
-
-.timeline h4 {
-    margin-top: 0px;
-    font-weight: 500;
-}
 
 p img {
   /*max-width: 1640px;*/
@@ -357,13 +339,29 @@ blockquote {
 }
 
 /* Styling */
+
 .timeline {
   margin: 2em auto 0 auto;
   position: relative;
-  max-width: 46em;
   text-align: left;
   list-style: none;
+  max-width: 90vw;
+  font-size: 0.6em;
 }
+
+@media only screen and (min-width: 860px) {
+  .timeline {
+    max-width: 46em;
+    font-size: inherit;
+  }
+}
+
+.timeline h4 {
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+
 .timeline h4 {
     margin-top: 0px;
 }
