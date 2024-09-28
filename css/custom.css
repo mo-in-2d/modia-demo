@@ -31,7 +31,7 @@ body {
 
 @font-face {
     font-family: "5thavenue";
-    src: url("./fonts/5thAvenue/5th_avenue.ttf");
+    src: url("../media/fonts/5th_avenue-webfont.woff");
 }
 h1, h2, h3, h4, blockquote {
     font-family: 'Poppins', sans-serif;
