@@ -137,11 +137,13 @@ a.highlight {
   margin: 2em auto;
   position: relative;
   max-width: 90vw;
+  font-size: 0.6em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 860px) {
   .timeline {
     max-width: 46em;
+    font-size: inherit;
   }
 }
 
