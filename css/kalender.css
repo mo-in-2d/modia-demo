@@ -1,0 +1,11 @@
+.kalender table {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.kalender thead {
+    background-color: #E1AA44;
+    color: #FFF9E5;
+    text-align: center;
+}
