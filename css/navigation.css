@@ -46,6 +46,8 @@
   .navbar {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #fff9e5;
+    color: #ef795a;
     }
 
   /* menu */
