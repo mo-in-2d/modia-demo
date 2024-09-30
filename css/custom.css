@@ -115,6 +115,10 @@ a.highlight {
     background:linear-gradient(180deg, transparent 60%, #E79186 60%);
 }
 
+.ahaftung {
+  cursor: pointer;
+}
+
 /* Layout */
 * {
   -moz-box-sizing: border-box;
