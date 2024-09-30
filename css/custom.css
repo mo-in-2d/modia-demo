@@ -49,6 +49,12 @@ h1 {
     font-variant-ligatures: common-ligatures;
 }
 
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
 h1,h3 {
     font-weight: 400;
 }
