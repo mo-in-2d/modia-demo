@@ -224,6 +224,13 @@ blockquote {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .footer-nav ul {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+
 .footer-nav a {
     text-decoration: none;
     color: #FFF9E5;
