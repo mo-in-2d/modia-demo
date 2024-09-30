@@ -278,8 +278,8 @@ blockquote {
 
 /* Selected Dropdown nav item */
 .main-nav ul li.selected > a {
-    background-color: #fff;
-    color: #175E91;
+    /*background-color: #fff;*/
+    color: #E1AA44;
 }
 
 /* Dropdown CSS */
