@@ -522,6 +522,9 @@ blockquote {
   @media only screen and (min-width: 768px) {
     :root {
       --gallery-row-height: 150px;
+    }
+
+    .gallery-grid {
       margin-left: calc(-1 * var(--gallery-gap, 1em));
     }
   }
