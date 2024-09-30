@@ -527,6 +527,10 @@ blockquote {
     .gallery-grid {
       margin-left: calc(-1 * var(--gallery-gap, 1em));
     }
+
+    .gallery-grid > * {
+      margin-left: calc(-1 * var(--gallery-gap, 1em));
+    }
   }
   @media only screen and (min-width: 1280px) {
     :root {
