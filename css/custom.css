@@ -221,16 +221,18 @@ blockquote {
 .footer-nav ul {
     list-style: none;
     text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   .footer-nav ul {
     text-align: left;
     border-left: solid 2px #fff9e5;
   }
 }
 
-/*@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .footer-nav ul {
     padding-left: 0;
     padding-top: 20px;
