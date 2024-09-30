@@ -494,7 +494,7 @@ blockquote {
     overflow: hidden;
     flex-wrap: wrap;
     margin-bottom: calc(-1 * var(--gallery-gap, 1em));
-    margin-left: 0px;
+    margin-left: calc(-1 * var(--gallery-gap, 1em));
   }
 
 
@@ -509,7 +509,7 @@ blockquote {
     height: var(--gallery-row-height);
     flex-grow: 1;
     margin-bottom: var(--gallery-gap, 1em);
-    margin-left: 0px;
+    margin-left: var(--gallery-gap, 1em);
   }
   .gallery-grid > * > img {
     height: var(--gallery-row-height);
@@ -523,13 +523,14 @@ blockquote {
     :root {
       --gallery-row-height: 150px;
     }
+  }
 
+  @media only screen and (max-width: 767px) {
     .gallery-grid {
-      margin-left: calc(-1 * var(--gallery-gap, 1em));
+      margin-left: 0px;
     }
-
     .gallery-grid > * {
-      margin-left: calc(-1 * var(--gallery-gap, 1em));
+      margin-left: 0px;
     }
   }
   @media only screen and (min-width: 1280px) {
