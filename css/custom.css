@@ -494,7 +494,7 @@ blockquote {
     overflow: hidden;
     flex-wrap: wrap;
     margin-bottom: calc(-1 * var(--gallery-gap, 1em));
-    margin-left: 0;
+    margin-left: 0px;
   }
 
 
@@ -509,7 +509,7 @@ blockquote {
     height: var(--gallery-row-height);
     flex-grow: 1;
     margin-bottom: var(--gallery-gap, 1em);
-    margin-left: var(--gallery-gap, 1em);
+    margin-left: 0px;
   }
   .gallery-grid > * > img {
     height: var(--gallery-row-height);
