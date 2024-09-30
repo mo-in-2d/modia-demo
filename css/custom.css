@@ -494,8 +494,10 @@ blockquote {
     overflow: hidden;
     flex-wrap: wrap;
     margin-bottom: calc(-1 * var(--gallery-gap, 1em));
-    margin-left: calc(-1 * var(--gallery-gap, 1em));
+    margin-left: 0;
   }
+
+
   .gallery-grid:after {
     content: "";
     flex-grow: 999999999;
@@ -520,6 +522,7 @@ blockquote {
   @media only screen and (min-width: 768px) {
     :root {
       --gallery-row-height: 150px;
+      margin-left: calc(-1 * var(--gallery-gap, 1em));
     }
   }
   @media only screen and (min-width: 1280px) {
