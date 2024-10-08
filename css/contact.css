@@ -12,9 +12,9 @@
     
     background: transparent;
     outline: none;
-    color: #726659;
+    color: #ef795a;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px #E1AA44;
     border-bottom: none;
     
     transition: all 0.3s ease-in-out;
@@ -24,8 +24,8 @@
   }
   
   input:hover {
-    background: #b3aca7;
-    color: #e2dedb;
+    background: #E1AA44;
+    color: #FFF9E5;
   }
   
   textarea {
@@ -38,10 +38,10 @@
     background: transparent;
     outline: none;
     
-    color: #726659;
+    color: #ef795a;
     font-size: 0.875em;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px #E1AA44;
     
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -50,26 +50,28 @@
   }
   
   textarea:hover {
-    background: #b3aca7;
-    color: #e2dedb;
+    background: #E1AA44;
+    color: #FFF9E5;
   }
   
   #submit {
-    width: 502px;
+    width: 470px;
     
-    padding: 0;
+    padding: 15;
     margin: -5px 0px 0px 0px;
+
+    background-color: #FFF9E5;
     
     font-size: 0.875em;
-    color: #b3aca7;
+    color: #ef795a;
     
     outline:none;
     cursor: pointer;
     
-    border: solid 1px #b3aca7;
-    border-top: none;
+    border: solid 1px #E1AA44;
   }
   
   #submit:hover {
-    color: #e2dedb;
+    color: #FFF9E5;
+    background-color: #ef795a;
   }
