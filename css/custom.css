@@ -361,7 +361,7 @@ blockquote {
     background: linear-gradient(180deg, rgba(255,255,255,0) 54%, #FBE3CF 54%);
   }
 
-  .smalllink a {
+  .smalllink {
     color: #E79186;
     text-decoration: none;
   }
