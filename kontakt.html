@@ -76,22 +76,28 @@
             <h1>Kontakt</h1>
             <div>
                 <form action="https://api.web3forms.com/submit" method="POST">
-                    <div class="pure-g">
+                    <div class="pure-g" style="text-align: left;">
                         <!-- Replace with your Access Key -->
                         <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
                 
                         <!-- Form Inputs. Each input must have a name="" attribute -->
                          <div class="pure-u-1">
-                            <label for="name">Betreff:</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="name">Betreff</label>
+                         </div>
+                         <div class="pure-u-1">
+                            <input type="text" id="name" name="name" placeholder="Betreff" required>
                          </div>
                          <div class="pure-u-1">
                             <label for="email">E-Mail-Adresse</label>
-                            <input type="email" id="email" name="email" required>
+                         </div>
+                         <div class="pure-u-1">
+                            <input type="email" id="email" name="email" placeholder="E-Mail-Adresse" required>
                          </div>
                          <div class="pure-u-1">
                             <label for="message">Nachricht</label>
-                            <textarea name="message" id="message" required></textarea>
+                         </div>
+                         <div class="pure-u-1">
+                            <textarea name="message" id="message" placeholder="Nachricht" required></textarea>
                          </div>
                          <div class="pure-u-1">
                             <!-- Honeypot Spam Protection -->
