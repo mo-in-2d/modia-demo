@@ -7,6 +7,7 @@
   input {
     font-size: 0.875em;
     width: 470px;
+    max-width: 94vw;
     height: 50px;
     padding: 0px 15px 0px 15px;
     
@@ -23,7 +24,7 @@
     -ms-transition: all 0.3s ease-in-out;
   }
 
-  input::placeholder, textarea::placeholder {
+  input::placeholder {
     color: #EECD92;
   }
   
@@ -34,7 +35,7 @@
   
   textarea {
     width: 470px;
-    max-width: 470px;
+    max-width: 94vw;
     height: 110px;
     max-height: 110px;
     padding: 15px;
@@ -52,6 +53,10 @@
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
   }
+
+  textarea::placeholder {
+    color: #EECD92;
+  }
   
   textarea:hover {
     background: #E1AA44;
@@ -60,6 +65,7 @@
   
   #submit {
     width: 470px;
+    max-width: 94vw;
     
     padding: 15;
     margin: -5px 0px 0px 0px;
